@@ -1,0 +1,19 @@
+/*---- ---- Application Wide CSS ---- ----*/
+
+/*---- State Transition Fading ----*/
+.ng-enter {
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+    opacity: 0;
+}
+
+.ng-enter-active {
+    opacity: 1;
+}
+
+/*---- General ----*/
+body{
+    background-color:transparent;
+}
